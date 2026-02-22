@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1771563066715,
+    "timestamp": "2026-02-20T04:51:06.715Z",
+    "command": "Execute: $1000 on 10x leverage, stop at 57k, target 60k",
+    "parsed": {
+      "raw": "Execute: $1000 on 10x leverage, stop at 57k, target 60k",
+      "amount": 1000,
+      "leverage": 10,
+      "stopLoss": 57,
+      "target": 60,
+      "riskLevel": "unknown"
+    },
+    "riskLevel": "high",
+    "status": "executed",
+    "demoMode": true,
+    "expectedPnL": {
+      "riskAmount": "57764.00",
+      "rewardAmount": "57761.00",
+      "riskRatio": "1.00",
+      "potentialProfit": "9999.48",
+      "potentialLoss": "10000.00"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "name": "chart-agent",
+  "description": "Voice-driven chart analysis agent for structured trading rules and trade execution",
+  "version": "0.1.0",
+  "model": "anthropic/claude-haiku-4-5",
+  "capabilities": [
+    "voice-input",
+    "image-processing",
+    "rule-storage",
+    "trade-logging",
+    "strategy-scanning"
+  ],
+  "context": {
+    "instructionsFile": "./AGENT_INSTRUCTIONS.md",
+    "dataDirectory": "./"
+  },
+  "autoStart": false,
+  "timeout": 3600
+}
